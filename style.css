@@ -1,0 +1,282 @@
+
+:root {
+    --color-primary:#B9FF66;
+    --color-secondary: #191a23;
+    --color-tertiary: #f3f3f3;
+    --color-white: #ffffff; 
+    font-family: "Space Grotesk" ;
+
+}
+
+* {
+    padding: 0.1rem 1rem;
+    
+}
+
+/* Start header */
+
+/* Start navbar */
+
+.nav {
+    width: 100%;
+    
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.img-nav {
+    height: 45px;
+    width: 200px;
+   
+}
+
+.nav-listes{
+    list-style: none;
+    display:flex ;
+    gap: 20px;
+}
+
+.nav-item{
+    margin: 0rem 1rem;
+    
+}
+
+.nav-link{
+    text-decoration: none;
+    color: var(--color-secondary);
+    font-size: 17px;
+    
+}
+.nav-button{
+    color: var(--color-secondary);
+    border-radius: 0.5rem;
+    font-size: 17px;
+    text-decoration: none;
+    border-style: solid;
+    border-color: var(--color-secondary);
+    border-width: 1px;
+    padding: 10px;
+    
+}
+ 
+/* digital */
+.digital{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-digital{
+    width: 30%;
+ 
+}
+
+.img-digital {
+    width: 40%;
+}
+
+.text-digital h1{
+    font-size: 3.2rem;
+}
+
+.text-digital p{
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
+}
+
+.digital-btn{
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+    border-radius: 0.8rem;
+    font-size: 1rem;
+    padding: 1.2rem;
+    text-decoration: none;
+    margin-left: 0.8rem;
+}
+
+.company{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 2rem;
+}
+/* End navbar */
+
+/* Start service */
+
+/* Services */
+
+.text-services {
+    display: flex;
+    margin-top: 50px;
+
+}
+
+.text-services h3{
+    background-color: var(--color-primary);
+    font-size: 3rem;
+    color: var(--color-secondary);
+    border-radius: 0.8rem;
+    width: 12rem;
+    height: 4rem;
+    display: flex;
+}
+.text-services p{
+    font-size: 1.2rem;
+    width: 620px ;
+    margin-left: 1.5rem;
+    margin-top: 3rem;
+    
+}
+
+/* Cartes */
+
+.cartes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+}
+
+.bg-gris{
+    background-color: var(--color-tertiary);
+    border-radius: 4rem;
+    border-style: solid;
+    border-color: var(--color-secondary);
+    border-width: 2px;
+    height: 25rem;
+    width: 50%;
+    display: flex;
+    margin: 1rem;
+    box-shadow: 0px 6px 0px ;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+
+}
+.bg-green{
+    background-color: var(--color-primary);
+    border-radius: 4rem;
+    border-style: solid;
+    border-color: var(--color-secondary);
+    border-width: 2px;
+    height: 25rem;
+    width: 50%;
+    display: flex;
+    box-shadow: 0px 6px 0px ;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+
+
+
+}
+.bg-black{
+    background-color: var(--color-secondary);
+    border-radius: 4rem;
+    border-style: solid;
+    border-color: var(--color-secondary);
+    border-width: 2px;
+    height: 25rem;
+    width: 50%;
+    display: flex;
+    margin: 1rem;
+    box-shadow: 0px 6px 0px ;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+
+
+}
+
+.cartes-Ligne{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.text-bg-green{
+    background-color: var(--color-primary);
+    border-radius: 0.6rem;
+    font-size: 2.5rem;
+    margin: 0;
+    
+}
+.text-bg-white{
+    background-color: var(--color-white);
+    font-size: 2.5rem;
+    border-radius: 0.6rem;
+    margin: 0;
+    
+}
+
+.btn-cartes a{
+    font-size: 1.7rem;
+    color: var(--color-secondary);
+    text-decoration: none;
+}
+
+.btn-cartes{
+    display: flex;
+    margin-top: 8rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-cartes{
+    width: 37%;
+    height: 55%;
+}
+
+.btn-cartes-img{
+    background-color: var(--color-secondary) ;
+    border-radius: 50%;
+    width: 29px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-cartes-img img{
+    width: 30px;
+    height: 30px;
+
+}
+
+.btn-cartes-img-b{
+    background-color: var(--color-white) ;
+    border-radius: 50%;
+    width: 29px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-cartes-img-b img{
+    width: 30px;
+    height: 30px;
+}
+
+.btn-cartes-b a{
+    font-size: 1.7rem;
+    color: var(--color-white);
+    text-decoration: none;
+}
+
+.btn-cartes-b{
+    display: flex;
+    margin-top: 8rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+/* End header */
+
